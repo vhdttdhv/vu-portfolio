@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+}
+
+.app-about {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+  width: 40%;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  height: 100vh;
+  background-color: rgba(10, 10, 10, 0.4);
+}
+
+.app-about-content {
+  padding: 4em 0 4em;
+}
+
+.app-button {
+  background-color: #ff8175;
+  color: white;
+  padding: 1.2em;
+  -webkit-box-shadow: 4px 4px #80fe8c;
+          box-shadow: 4px 4px #80fe8c;
+  border: none;
+  font-size: 1.2rem;
+  margin-left: 1em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  bottom: 2em;
+  right: 3em;
+}
+
+.app-button:hover {
+  -webkit-box-shadow: 4px 4px #8a73fe;
+          box-shadow: 4px 4px #8a73fe;
+}
+
+.app-button:active {
+  -webkit-box-shadow: 1px 1px #8a73fe;
+          box-shadow: 1px 1px #8a73fe;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.app-popup {
+  display: none;
+  position: absolute;
+  bottom: 10em;
+  left: 1em;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
